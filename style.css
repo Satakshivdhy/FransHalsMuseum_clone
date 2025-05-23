@@ -519,26 +519,25 @@ html {
 
 .p5-nav-img {
     height: 100%;
-    width: 25%;
+    width:25%;
     background-color: transparent;
     flex-shrink: 0;
+    transition: all ease 0.5s;
 }
 
 .p5-nav-img:hover {
     transform: scale(1.05);
-    transition: all ease 0.5s;
+    
 }
 
 #imga {
-    background-color: red;
+    background-color: blue;
     border-radius: 40px;
     background-image: url(https://cdn.sanity.io/images/r35o2ddl/production/ec61b850954e3c4616afddf9ef16f847ac452629-1200x1351.jpg?w=1920&auto=format);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
 }
-
 
 #imgb {
     background-color: blue;
@@ -596,7 +595,7 @@ html {
 
 
 #text{
-    position: absolute;
+    position:absolute;
     height: 30%;
     width: 100%;
     font-size: 10px;
@@ -806,11 +805,23 @@ html {
     display: none;
 }
 
-#arrow {
-    height: 10px;
-    width: 20px;
-    background-color: red;
-    display: flex;
-    justify-content: flex-end;
+
+
+#arrow{
+    height: 20px;
+    width: 50px;
+    background-color: transparent;
     position: absolute;
+    top: 90%;
+    right: 5%;
+    font-size: 30px;
+}
+#arrow1{
+    height: 20px;
+    width: 50px;
+    background-color: transparent;
+    position: absolute;
+    top: 85%;
+    right: 15%;
+    font-size: 30px;
 }
