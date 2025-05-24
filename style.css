@@ -315,9 +315,6 @@ html {
     margin-top: 40px;
     height: 65%;
     width: 100vw;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     border-radius: 40px;
     overflow-x: auto;
@@ -335,103 +332,102 @@ html {
     width: 25%;
     background-color: transparent;
     flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 40px;
+    position: relative;
+
 }
 
-.page3-nav-img:hover {
+.page3-nav-img:hover #img1,.page3-nav-img:hover #img2,.page3-nav-img:hover #img3,.page3-nav-img:hover #img4,.page3-nav-img:hover #img5,
+.page3-nav-img:hover #img6,.page3-nav-img:hover #img7,.page3-nav-img:hover #img8,.page3-nav-img:hover #img9,.page3-nav-img:hover #img10{
     transform: scale(1.05);
     transition: all ease 0.5s;
 }
 
-#img1 {
+
+
+#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9,#img10 {
+    height: 100%;
+    width: 100%;
     background-color: red;
     border-radius: 40px;
-    background-image: url(https://iiif.micr.io/jHXARE/full/1199,/0/default.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* font-size: 10px; */
+}
+
+#img1 {
+    
+    background-image: url(https://iiif.micr.io/jHXARE/full/1199,/0/default.jpg);
+
 }
 
 
 #img2 {
-    background-color: blue;
-    border-radius: 40px;
+    
     background-image: url(https://iiif.micr.io/ftQGPW/full/1199,/0/default.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
+
 #img3 {
-    background-color: pink;
-    border-radius: 40px;
     background-image: url(https://iiif.micr.io/UyoNHJ/full/1180,/0/default.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    
 }
 
 #img4 {
-    background-color: skyblue;
-    border-radius: 40px;
+    
     background-image: url(https://iiif.micr.io/sHPJVp/full/1199,/0/default.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+   
 }
 
 #img5 {
-    background-color: purple;
-    border-radius: 40px;
+    
     background-image: url(https://iiif.micr.io/fnBGye/full/1199,/0/default.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    
 }
 
 #img6 {
-    background-color: yellow;
-    border-radius: 40px;
+    
     background-image: url(https://iiif.micr.io/gAfhky/full/1199,/0/default.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    
 }
 
 #img7 {
-    background-color: skyblue;
-    border-radius: 40px;
+    
     background-image: url(https://iiif.micr.io/HdOBJw/full/1199,/0/default.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    
 }
 
 #img8 {
-    background-color: rgb(39, 53, 59);
-    border-radius: 40px;
+   
     background-image: url(https://iiif.micr.io/NzLwmZ/full/1199,/0/default.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    
 }
 
 #img9 {
-    background-color: rgb(140, 165, 81);
-    border-radius: 40px;
+  
     background-image: url(https://iiif.micr.io/eZCOQF/full/1199,/0/default.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+   
 }
 
 #img10 {
-    background-color: rgb(126, 37, 37);
-    border-radius: 40px;
+    
     background-image: url(https://iiif.micr.io/UXNmfr/full/1199,/0/default.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    
+}
+
+#tx1,#tx2,#tx3,#tx4,#tx5,#tx6,#tx7,#tx8,#tx9,#tx10{
+    /* height: 40%;
+    width: 80%; */
+    position:absolute;
+    height: 30%;
+    width: 100%;
+    font-size: 10px;
+    top: 70%;
+    color: #fff;
+    left: 15px;
+    font-size: 12px;
+    /* background-color: brown; */
 }
 
 .page4 {
@@ -490,6 +486,8 @@ html {
     font-size: 20px;
     padding-top: 5%;
     padding-left: 10%;
+
+    
 }
 .page5 h1{
     top: 15%;
@@ -502,9 +500,6 @@ html {
     margin-top: 40px;
     height: 75%;
     width: 100vw;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     border-radius: 40px;
     overflow-x: auto;
@@ -513,7 +508,7 @@ html {
     justify-content: center;
     justify-content: space-between;
     flex-wrap: nowrap;
-
+    background-color: transparent;
 
 }
 
@@ -523,85 +518,85 @@ html {
     background-color: transparent;
     flex-shrink: 0;
     transition: all ease 0.5s;
+    overflow: hidden;
+    border-radius: 40px;
+    position: relative;
+
 }
 
-.p5-nav-img:hover {
+.p5-nav-img:hover #imga ,.p5-nav-img:hover #imgb,.p5-nav-img:hover #imgc,.p5-nav-img:hover #imgd,.p5-nav-img:hover #imge,.p5-nav-img:hover #imgf,.p5-nav-img:hover #imgg {
     transform: scale(1.05);
+    transition: all ease 0.5s;
+
+    
+}
+#imga,#imgb,#imgc,#imgd,#imge,#imgf,#imgg{
+    height: 100%;
+    width: 100%;
+    background-color:transparent ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: inset 0 4px 190px rgba(0, 19, 23, 0.5);
+
+}
+#imga {
+    
+    background-image: url(https://cdn.sanity.io/images/r35o2ddl/production/ec61b850954e3c4616afddf9ef16f847ac452629-1200x1351.jpg?w=1920&auto=format);
     
 }
 
-#imga {
-    background-color: blue;
-    border-radius: 40px;
-    background-image: url(https://cdn.sanity.io/images/r35o2ddl/production/ec61b850954e3c4616afddf9ef16f847ac452629-1200x1351.jpg?w=1920&auto=format);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
 #imgb {
-    background-color: blue;
-    border-radius: 40px;
+    
     background-image: url(https://cdn.sanity.io/images/r35o2ddl/production/18d9459a9e03ee541bc867c9ce39ef05fa45c768-1560x1170.jpg?w=1200&auto=format);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  
 }
 
 #imgc {
-    background-color: pink;
-    border-radius: 40px;
+    
     background-image: url(https://cdn.sanity.io/images/r35o2ddl/production/8c7a7f124003fbb1fa833dcf8eeb0c869da6034c-7433x4958.jpg?w=1920&auto=format);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+   
 }
 
 #imgd {
-    background-color: skyblue;
-    border-radius: 40px;
+    
     background-image: url(https://cdn.sanity.io/images/r35o2ddl/production/56700e760b660e10584ca40ff8bc686cbb0ac520-3840x2560.jpg?rect=0,517,3840,1761&w=1200&auto=format);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    
 }
 
 #imge {
-    background-color: purple;
-    border-radius: 40px;
+   
     background-image: url(https://cdn.sanity.io/images/r35o2ddl/production/32b8b3d4da8a93c387e027666d69337e979fb4c2-5217x3832.jpg?rect=0,0,5217,2606&w=1200&auto=format);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    
 }
 
 #imgf {
-    background-color: yellow;
-    border-radius: 40px;
+    
     background-image: url(https://cdn.sanity.io/images/r35o2ddl/production/e8755de2a2cfd6f681fa043973dfc452cddb1e61-4967x3311.jpg?w=1200&auto=format);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    
 }
 
 #imgg {
-    background-color: skyblue;
-    border-radius: 40px;
+    
     background-image: url(https://cdn.sanity.io/images/r35o2ddl/production/86da65b07c071af7429eb1f1f506ca8b73eb6b4f-6101x4067.jpg?w=1200&auto=format);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 
-#text{
+#text1,#text2,#text3,#text4,#text5,#text6,#text7{
+    /* height: 40%;
+    width: 80%; */
     position:absolute;
     height: 30%;
     width: 100%;
     font-size: 10px;
-    top: 80%;
+    top: 75%;
     color: #fff;
+    left: 15px;
+    font-size: 10px;
+    /* background-color: brown; */
 }
+
 
 .page6{
     
