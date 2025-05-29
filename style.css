@@ -661,9 +661,10 @@ html {
 
 .page6 {
 
-    height: 90%;
+    height: 130vh;
     width: 100%;
     background-color: #001317;
+    position: relative;
 }
 
 .div {
@@ -739,7 +740,7 @@ html {
 
     top: 20%;
     left: 60%;
-    height: 50%;
+    height: 40%;
     width: 25%;
     background-color: transparent;
     position: absolute;
@@ -755,31 +756,35 @@ html {
 
 }
 
-#bu1 {
 
-    height: 50px;
-    width: 90%;
-    background-color: #FAFAFA;
-    border-radius: 5px;
+form {
+
+    border-radius: 20px;
+    margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 20px;
     color: grey;
+    flex-direction: column;
+    gap: 20px;
 }
 
-#bu2 {
-
-    height: 50px;
-    width: 90%;
-    background-color: #FECD8C;
-    border-radius: 5px;
+#email {
+    padding: 15px 70px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
-    color: black;
 }
+
+#submit {
+    padding: 15px 130px;
+    background-color: #FECD8C;
+    border-radius: 10px;
+
+}
+
 
 #bu2:hover {
     background-color: #FFB655;
@@ -830,12 +835,6 @@ html {
     width: 100%;
 
 }
-
-
-/* #sup{
-    color: aqua;
-} */
-
 
 .f2 {
     left: 40%;
@@ -901,7 +900,6 @@ html {
     #nav img {
         height: 100%;
         width: 100%;
-        /* background-color: transparent; */
         left: 5%;
         top: 3%;
         position: absolute;
@@ -911,11 +909,9 @@ html {
     #nav {
         height: 10%;
         width: 20%;
-        /* background-color: red; */
         left: 3%;
         top: 3%;
         position: relative;
-        /* z-index: 9999999; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1070,29 +1066,220 @@ html {
     }
 
     .page3-img {
-
-        height: 80%;
         width: 100%;
-        background-size: cover;
-        border-radius: 10%;
-        overflow-x: auto;
-        overflow-y: hidden;
-        display: flex;
-        justify-content: center;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-
-
+        height: 80%;
+        border-radius: 10px;
+        position: relative;
     }
 
     .page3-nav-img {
         margin-top: 25px;
         height: 80%;
-        width: 100%;
+        width: 130%;
         background-color: transparent;
         flex-shrink: 0;
+        border-radius: 2px;
+        flex-wrap: nowrap;
+
+        /* position: absolute; */
+
+    }
+
+    #img1,
+    #img2,
+    #img3,
+    #img4,
+    #img5,
+    #img6,
+    #img7,
+    #img8,
+    #img9,
+    #img10 {
+        border-radius: 10px;
+    }
+
+    .page4 {
+        height: 65%;
+        width: 100%;
+        background-color: #001317;
+        position: relative;
+    }
+
+    #p4-img {
+        height: 80%;
+        width: 90%;
+        background-image: url(https://cdn.sanity.io/images/r35o2ddl/production/5a8c73157dfb90f6c79d7812bf2cdbbbcf9af79f-3231x1794.jpg?w=1920&auto=format);
+        border-radius: 5px;
+        margin-top: 20%;
+        margin-left: 5%;
+
+    }
+
+    #p4-img h1 {
+        font-size: 23px;
+    }
+
+    #but {
+        display: none;
+    }
+
+    .page5 {
+        height: 70%;
+        position: relative;
+    }
+
+    .page5 h1 {
+        margin-top: 5%;
+        left: 0px;
+        font-size: 25px;
+    }
+
+    .p5-img {
+
+        border-radius: 10px;
+
+
+    }
+
+    .p5-nav-img {
+        height: 100%;
+        width: 135%;
+        background-color: transparent;
+        flex-shrink: 0;
+        transition: all ease 0.5s;
+        overflow: hidden;
+        border-radius: 10px;
+        position: relative;
+
+    }
+
+    #text1 h1,
+    #text2 h1,
+    #text3 h1,
+    #text4 h1,
+    #text5 h1,
+    #text6 h1,
+    #text7 h1 {
+        font-size: 15px;
+
+    }
+
+    .div {
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: start; */
+        /* align-items: start; */
+        position: relative;
+
+    }
+
+    #div1 {
+        height: 30%;
+        width: 100%;
+        font-size: 15px;
+        line-height: 25px;
+
+    }
+
+    #div2 {
+        margin-left: 1%;
+        top: 40%;
+        height: 30%;
+        width: 30%;
+        /* background-color: red; */
+        line-height: 40px;
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+    }
+
+    .box {
+
+        top: 65%;
+        left: 0%;
+        height: 30%;
+        width: 90%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        border-radius: 10px;
+        border: 2px solid white;
+        color: #fff;
+        padding-left: 20px;
+
+    }
+
+    #email {
+        padding: 15px 70px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #submit {
+        padding: 6% 43%;
+        background-color: #FECD8C;
         border-radius: 10px;
 
     }
 
+
+    .footer {
+        height: 30%;
+        width: 100%;
+        background-color: #001317;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .f1 {
+        left: 5%;
+        top: 2%;
+        height: 35%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        justify-content: space-evenly;
+        position: relative;
+
+
+
+    }
+
+    .f2 {
+        left: 0%;
+        height: 20%;
+        width: 60%;
+        top: 40%;
+        background-color: transparent;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+    }
+
+    .f3 {
+        left: 0%;
+        height: 20%;
+        width: 60%;
+        top: 60%;
+        background-color: transparent;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+        font-size: 25px;
+
+    }
 }
